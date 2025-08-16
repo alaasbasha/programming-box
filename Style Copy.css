@@ -1,0 +1,561 @@
+<html>
+<style>
+*{
+margin:0;
+padding:0;
+
+}
+
+header{
+margin-top:-10px;
+padding:20px 10px 10px 10px ;
+width:100%;
+porder:80px;
+height:40px;
+background-color:#D5E6EF; 
+box-shadow: 0px 0px 5px #C6C9CC;
+
+}
+
+.nav {
+    margin-top: 20px; /* Space between logo and buttons */
+    display: flex; /* Use flexbox for navigation */
+    justify-content: center; /* Center buttons */
+}
+
+.nav a {
+    text-decoration: none; /* Remove underline */
+    margin: 20 15px; /* Space between buttons */
+}
+
+#button1 {
+  width: 210px;
+	
+    padding:22px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size:15pt;
+    box-shadow: 0px 0px 0px white;
+    font-family:Ace Sans Demo; 
+    color: #212C51;
+}
+
+
+button1:hover {
+    color: #FFFFFF;
+}
+
+#button2 {
+  width: 210px;
+    padding:17px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size:15pt;
+    box-shadow: 0px 0px 0px white;
+    font-family:Ace Sans Demo; 
+    color: #212C51;
+}
+
+button2:hover {
+    color: #FFFFFF;
+}
+
+
+#button3 {
+  width: 210px;
+    padding:17px;
+    border: none;
+    background: none;
+    outline: none;
+    font-size:15pt;
+    box-shadow: 0px 0px 0px white;
+    font-family:Ace Sans Demo; 
+    color: #212C51;
+}
+
+button3:hover {
+    color: #FFFFFF;
+}
+
+
+
+
+header img{
+width:62px;
+float:left;
+margin-top:-10px;
+margin-left:4px;
+
+}
+
+#imol{
+width:60%;
+height:500px;
+position:absolute;
+left:250px;
+}
+marquee{
+position:absolute;
+top:70px;
+left:40px;
+color:#415385;
+text-align:left;
+font-size:30px;
+width:800px;
+height:90px;
+font-weight:bold;
+font-family:Ace Sans Demo;
+}
+
+
+
+#input div{
+      
+width:300px;
+height:420px;
+min-height=50vh;
+font-size:22px;
+font-family:Arial Rounded MT Bold;
+background: linear-gradient(
+to right bottom,#F3F8FB,#D5E6EF);
+margin-top:100;
+margin-down:200;
+margin-left:85;
+float:left;
+border-radius:7px;
+}
+
+#input div:hover{
+background: linear-gradient(
+to right bottom,#C2DAE8,#F3F8FB);
+
+}
+
+main{
+width:30%
+hight:500px;
+
+position:absolute;
+top:550px;
+left:440px;
+}
+
+main h2{
+font-size:38px;
+font-family:Arial Rounded MT Bold;
+margin-top:90px;
+color:#415385;
+
+
+}
+main p{
+margin-top:-30px;
+font-size:15px;
+font-family:Arial Rounded MT Bold;
+}
+
+main h3{
+
+font-size:38px;
+font-family:Arial Rounded MT Bold;
+margin-top:10px;
+color:#415385;
+
+
+}
+main p{
+margin-top:-30px;
+font-size:15px;
+font-family:Arial Rounded MT Bold;
+color:#C2C8D4;
+}
+
+#pichome div{
+position:absolute;
+top:550px;
+right:40px;
+
+}
+
+
+#inputPage2 div{
+width:370px;
+height:350px;
+border:2px solid #DADEE5; 
+font-size:15px;
+font-family:Arial Rounded MT Bold;
+color:#415385;
+box-shadow:1px 1px 6px gray;
+margin-top:50;
+margin-down:200;
+margin-left:450;
+float:down;
+
+border-radius:16px;
+}
+
+button{
+width:210px;
+padding:17px;
+border:none;
+background:none;
+outline:none;
+font-size:15pt;
+font-family:Arial Rounded MT Bold;
+color:#415385;
+
+}
+
+lessonword{
+position:absolute;
+top:61px;
+left:25px;
+color:#415385;
+text-align:left;
+font-size:20px;
+width:400px;
+font-family:Ace Sans Demo;
+}
+
+lessonP{
+position:absolute;
+top:115px;
+left:25px;
+color:#B0B8C8;
+text-align:left;
+font-size:20px;
+width:400px;
+font-family:Arial Rounded MT Bold;
+}
+
+lessonExplain{
+  font-family: Candara Light;
+  
+position:absolute;
+top:128px;
+left:10px;
+color:#415385;
+text-align:left;
+font-size:15px;
+width:1000px;
+height:300px;
+border:10px;
+
+min-height=50vh;
+background: linear-gradient(
+to right bottom,#F3F8FB,#DDECF3);
+margin-top:60;
+margin-down:200;
+margin-left:15px;
+padding:10px;
+float:left;
+border-radius:7px;
+box-shadow: 5px;
+}
+
+Exampleword{
+position:absolute;
+top:520px;
+left:25px;
+color:#415385;
+text-align:left;
+font-size:20px;
+width:400px;
+font-family:Ace Sans Demo;
+}
+
+ExampleP{
+position:absolute;
+top:570px;
+left:25px;
+color:#B0B8C8;
+text-align:left;
+font-size:20px;
+width:900px;
+font-family:Arial Rounded MT Bold;
+}
+
+ExampleExplain{
+  font-family: Candara Light;
+  
+position:absolute;
+top:300px;
+left:10px;
+color:#415385;
+text-align:left;
+font-size:15px;
+width:1000px;
+height:550px;
+border:10px;
+
+min-height=50vh;
+background: linear-gradient(
+to right bottom,#F3F8FB,#DDECF3);
+margin-top:348px;
+margin-down:200;
+margin-left:15px;
+padding:10px;
+float:left;
+border-radius:7px;
+box-shadow: 5px;
+
+#ExampleExplain img
+margin-top:50;
+margin-down:200;
+margin-left:15px;
+
+}
+
+QuizProcess button{
+
+width:200px;
+height:50px;
+min-height=50vh;
+font-size:23px;
+border:2 px;
+font-family:Arial Rounded MT Bold;
+
+background: linear-gradient(
+to right bottom,#F3F8FB,#B6D5E4);
+margin-top:100;
+margin-left:10;
+border-radius:50px;
+padding:5px;
+position:absolute;
+top:1270px;
+
+}
+QuizProcess button:hover{
+color:#FFFFFF;
+
+background: linear-gradient(
+to right bottom,#CC40BB,#DE82D3);      
+}
+QuizProcess h1{
+position:absolute;
+top:1250px;
+left:25px;
+color:#415385;
+text-align:left;
+font-size:30px;
+width:400px;
+font-family:Ace Sans Demo;}
+
+
+QuizProcess a{
+position:absolute;
+top:1320px;
+left:25px;
+color:#B0B8C8;
+text-align:left;
+font-size:20px;
+width:400px;
+font-family:Arial Rounded MT Bold;
+}
+
+
+
+
+
+#OutputQuiz{
+
+width:200px;
+height:50px;
+min-height=50vh;
+font-size:30px;
+
+font-family:Arial Rounded MT Bold;
+
+background: linear-gradient(
+to right bottom,#F3F8FB,#B6D5E4);
+margin-top:100;
+margin-left:10;
+border-radius:50px;
+padding: 20px 10px 10px 100px;
+
+position:absolute;
+top:1270px;
+
+}
+#OutputQuiz:hover{
+color:#FFFFFF;
+
+background: linear-gradient(
+to right bottom,#CC40BB,#DE82D3);      
+}
+
+
+Quizoutput h1{
+position:absolute;
+top:1250px;
+left:25px;
+color:#415385;
+text-align:left;
+font-size:30px;
+width:400px;
+font-family:Ace Sans Demo;}
+
+
+Quizoutput a{
+position:absolute;
+top:1320px;
+left:25px;
+color:#B0B8C8;
+text-align:left;
+font-size:20px;
+width:400px;
+font-family:Arial Rounded MT Bold;
+}
+
+
+
+
+
+
+Quizinput button{
+
+width:200px;
+height:50px;
+min-height=50vh;
+font-size:23px;
+border:2 px;
+font-family:Arial Rounded MT Bold;
+
+background: linear-gradient(
+to right bottom,#F3F8FB,#B6D5E4);
+margin-top:100;
+margin-left:10;
+border-radius:50px;
+padding:5px;
+position:absolute;
+top:1270px;
+
+}
+Quizinput button:hover{
+color:#FFFFFF;
+
+background: linear-gradient(
+to right bottom,#CC40BB,#DE82D3);      
+}
+Quizinput h1{
+position:absolute;
+top:1250px;
+left:25px;
+color:#415385;
+text-align:left;
+font-size:30px;
+width:400px;
+font-family:Ace Sans Demo;}
+
+
+Quizinput a{
+position:absolute;
+top:1320px;
+left:25px;
+color:#B0B8C8;
+text-align:left;
+font-size:20px;
+width:400px;
+font-family:Arial Rounded MT Bold;
+}
+
+
+
+
+OutputRadio h3{
+font-family:Arial Rounded MT Bold;
+font-size:20px;
+margin-left:25px;
+color:#415385;
+}
+OutputRadio{
+font-family:Arial Rounded MT Bold;
+font-size:20px;
+margin-left:30px;
+color:#415385;
+}
+
+Contact{
+  font-family: Candara Light;
+  
+position:absolute;
+top:150px;
+left:430px;
+color:#415385;
+text-align:center;
+font-size:18px;
+width:400px;
+height:350px;
+border:10px;
+
+min-height=50vh;
+background: linear-gradient(
+to right bottom,#F3F8FB,#DDECF3);
+margin-top:60;
+margin-down:200;
+margin-left:15px;
+padding:10px;
+float:left;
+border-radius:7px;
+box-shadow: 5px;
+}
+
+contactWord{
+
+position:absolute;
+top:74px;
+left:450px;
+color:#415385;
+text-align:center;
+font-size:23px;
+width:400px;
+font-family:Ace Sans Demo;
+}
+contactP{
+position:absolute;
+top:130px;
+left:450px;
+color:#B0B8C8;
+text-align:center;
+font-size:22px;
+width:400px;
+font-family:Arial Rounded MT Bold;
+}
+
+About{
+  font-family: Candara Light;
+  
+position:absolute;
+top:150px;
+left:430px;
+color:#415385;
+text-align:center;
+font-size:18px;
+width:400px;
+height:420px;
+border:10px;
+
+min-height=50vh;
+background: linear-gradient(
+to right bottom,#F3F8FB,#DDECF3);
+margin-top:60;
+margin-down:200;
+margin-left:15px;
+padding:10px;
+float:left;
+border-radius:7px;
+box-shadow: 5px;
+
+
+
+
+}
+
+
+
+
+ </style>
+</html>
+
